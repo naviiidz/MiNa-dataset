@@ -1,7 +1,7 @@
-from ultralytics import YOLOv8
+from ultralytics import YOLOv10
 
 # Load pre-trained model
-model = YOLOv8.from_pretrained('ultralytics/yolov8n')
+model = YOLOv10.from_pretrained('ultralytics/yolov10b')
 
 # Train the model with various hyperparameters
 model.train(
