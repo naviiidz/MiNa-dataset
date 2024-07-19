@@ -8,7 +8,7 @@ This repository contains the MiNa dataset, which consists of Scanning Electron M
 
 We use the Detectron2 library to implement Faster R-CNN and Mask R-CNN. The JSON files for these networks are in COCO format and are included in the drive. Both the detection and classification codes include modules that generate patches and randomly distribute them into training, validation, and test sets. If you want to use the same patches, comment out the patch generation function.
 
-### Sample outputs 
+### Mask R-CNN sample outputs 
 
 <p align="center">
   <img src="Sample_Images/maskpe.png" alt="MaskRCNN PE sample" width="45%">
@@ -25,15 +25,10 @@ Follow this [link](https://github.com/THU-MIG/yolov10) to install YOLOv10.
 
 You can download images and their annotations in YOLO format from the drive. There is also code to develop new patches. You can generate patches for both detection and classification using the included codes. Additionally, you will need to set a YAML file in the `cfg` directory of the Ultralytics package that contains the directory of your dataset.
 
-### Sample outputs 
+### YOLOv10 sample outputs 
 
-<p align="center">
-  <img src="Sample_Images/yolope.jpg" alt="YOLO PE sample" width="45%">
-  <img src="Sample_Images/yolopp.jpg" alt="YOLO PP sample" width="45%">
-  <br>
-  <img src="Sample_Images/yolops.jpg" alt="YOLO PS sample" width="45%">
-  <img src="Sample_Images/yolopet.jpg" alt="YOLO PET sample" width="45%">
-</p>
+![Region-Based Networks](Sample_Images/yolo2.jpg)
+
 ## Getting Started
 
 1. **Download the Dataset**: Use the link above to download the dataset.
