@@ -28,11 +28,11 @@ You can download images and their annotations in YOLO format from the drive. The
 ### Sample outputs 
 
 <p align="center">
-  <img src="Sample_Images/yolope.png" alt="YOLO PE sample" width="45%">
-  <img src="Sample_Images/yolopp.png" alt="YOLO PP sample" width="45%">
+  <img src="Sample_Images/yolope.jpg" alt="YOLO PE sample" width="45%">
+  <img src="Sample_Images/yolopp.jpg" alt="YOLO PP sample" width="45%">
   <br>
-  <img src="Sample_Images/yolops.png" alt="YOLO PS sample" width="45%">
-  <img src="Sample_Images/yolopet.png" alt="YOLO PET sample" width="45%">
+  <img src="Sample_Images/yolops.jpg" alt="YOLO PS sample" width="45%">
+  <img src="Sample_Images/yolopet.jpg" alt="YOLO PET sample" width="45%">
 </p>
 ## Getting Started
 
