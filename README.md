@@ -26,8 +26,9 @@ Follow this [link](https://github.com/THU-MIG/yolov10) to install YOLOv10.
 You can download images and their annotations in YOLO format from the drive. There is also code to develop new patches. You can generate patches for both detection and classification using the included codes. Additionally, you will need to set a YAML file in the `cfg` directory of the Ultralytics package that contains the directory of your dataset.
 
 ### YOLOv10 sample outputs 
-
-![Region-Based Networks](Sample_Images/yolo2.jpg)
+<p align="center">
+  <img src="Sample_Images/yolo2.jpg" alt="Description of the image" width="50%">
+</p>
 
 ## Getting Started
 
