@@ -1,0 +1,41 @@
+# Data and model weights (shared separately, see README)
+data/
+zoo/
+model_zoo/
+weights/
+*.pt
+*.pth
+*.pkl
+*.onnx
+*.engine
+
+# Training runs, outputs and logs
+runs/
+outputs/
+logs/
+*.log
+*.cache
+inference_results*/
+test_predictions/
+test_overlay/
+test_comparison/
+custom_ap_results/
+
+# Environments and editor files
+.venv/
+*_venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# Vendored copy of ultralytics
+particle_localization/YOLOv8-seg/ultralytics/
+
+
+# Prediction dumps
+predictions/
+generated_overlays/
