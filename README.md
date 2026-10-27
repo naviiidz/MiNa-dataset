@@ -68,25 +68,8 @@ Each part has its own environment and installation instructions. A CUDA GPU is n
 
 If you use the dataset or the code, please cite:
 
-```bibtex
-@article{mina,
-  title   = {[TITLE]},
-  author  = {Zarrabi, Navid and Rezvani, Hadi and Mehta, Ishaan and Kolios, Christopher and Jaafar, Hussein Ali and
-             Kao, Cheng-Hao and Saeedi, Sajad and Yousefi, Nariman},
-  journal = {[JOURNAL]},
-  year    = {[YEAR]},
-  doi     = {[DOI]}
-}
-
-@dataset{mina_data,
-  title     = {MiNa dataset: SEM images of micro- and nanoplastic particles},
-  author    = {Zarrabi, Navid and Rezvani, Hadi and Mehta, Ishaan and Kolios, Christopher and Jaafar, Hussein Ali and
-               Kao, Cheng-Hao and Saeedi, Sajad and Yousefi, Nariman},
-  publisher = {Zenodo},
-  year      = {2026},
-  doi       = {10.5281/zenodo.23627019}
-}
-```
+*Morphological detection and classification of microplastics and nanoplastics emerged from consumer products by
+deep learning.*
 
 ## Licence
 
