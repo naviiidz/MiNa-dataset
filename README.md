@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23627019.svg)](https://doi.org/10.5281/zenodo.23627019)
 
 <p align="center">
-  <img src="assets/mina_overview.gif" alt="MiNa micrographs of the four polymers with particle annotations" width="100%">
+  <img src="assets/mina_overview.gif" alt="MiNa image patches of the four polymers with particle annotations" width="100%">
 </p>
 
 MiNa is a dataset of scanning electron microscopy (SEM) images of micro- and nanoplastic particles of four
@@ -17,7 +17,7 @@ the paper. The data are available on Zenodo: **[doi.org/10.5281/zenodo.23627019]
 
 ## Dataset
 
-![Example micrographs of each polymer with every particle outlined, and single-particle crops](assets/mina_overview.png)
+![Example image patches of each polymer with every particle outlined, and single-particle crops](assets/mina_overview.png)
 
 The Zenodo record contains three archives:
 
