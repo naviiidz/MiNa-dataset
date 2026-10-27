@@ -68,8 +68,14 @@ Each part has its own environment and installation instructions. A CUDA GPU is n
 
 If you use the dataset or the code, please cite:
 
-*Morphological detection and classification of microplastics and nanoplastics emerged from consumer products by
-deep learning.*
+```bibtex
+@article{rezvani2024morphological,
+  title={Morphological detection and classification of microplastics and nanoplastics emerged from consumer products by deep learning},
+  author={Rezvani, Hadi and Zarrabi, Navid and Mehta, Ishaan and Kolios, Christopher and Jaafar, Hussein Ali and Kao, Cheng-Hao and Saeedi, Sajad and Yousefi, Nariman},
+  journal={arXiv preprint arXiv:2409.13688},
+  year={2024}
+}
+```
 
 ## Licence
 
