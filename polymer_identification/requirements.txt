@@ -1,0 +1,11 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+scikit-image>=0.24
+opencv-python>=4.10
+matplotlib>=3.9
+joblib>=1.4
+torch>=2.5
+torchvision>=0.20
+timm>=1.0
+ultralytics>=8.4
