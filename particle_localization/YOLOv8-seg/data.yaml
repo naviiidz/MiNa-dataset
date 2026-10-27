@@ -1,0 +1,14 @@
+# Dataset configuration for YOLO segmentation training
+
+# Dataset paths (relative to this folder; run the scripts from here)  
+path: ../../data/patches/yolo_seg  # common data folder at the repo root (full image area, PE oversampled x3 in train)
+train: images/train      # train images directory 
+val: images/val          # validation images directory  
+test: images/test        # test images directory
+
+# Number of classes
+nc: 1  # number of classes
+
+# Class names  
+names:
+  0: MNP   # Microplastic

@@ -1,0 +1,43 @@
+# YOLOv26 Segmentation Environment Requirements
+# Generated for YOLOv26-seg-MiNa project - Instance Segmentation Focus
+
+# Core deep learning libraries for segmentation
+torch
+torchvision
+ultralytics>=8.4.14
+
+# Essential dependencies for segmentation
+numpy<2  # Important: NumPy compatibility for mask operations
+opencv-python  # For image processing and mask visualization
+Pillow  # Image loading and manipulation
+PyYAML  # For dataset configuration files
+requests  # For model downloading
+
+# Segmentation-specific visualization and analysis
+matplotlib  # For mask visualization
+seaborn  # Enhanced plotting for segmentation metrics
+scipy  # For advanced mask processing operations
+scikit-image  # Additional image processing for masks
+
+# Data handling for segmentation datasets
+pandas  # For annotation management
+tqdm  # Progress bars for training/inference
+
+# Optional: Advanced segmentation tools
+# pycocotools  # For COCO format segmentation datasets
+# albumentations  # Advanced augmentation for segmentation
+# segmentation-models-pytorch  # Additional segmentation utilities
+
+# For Jupyter notebook development (optional)
+ipython
+jupyter
+notebook
+
+# Development and debugging tools (optional)
+pytest
+black
+flake8
+
+# Model optimization (optional)
+# tensorrt  # For deployment optimization
+# onnx  # For model export and optimization
