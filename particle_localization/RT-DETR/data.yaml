@@ -1,0 +1,17 @@
+# Dataset configuration for YOLO detection training
+
+# Dataset paths (relative to this folder; run the scripts from here)  
+path: ../../data/patches/yolo_det  # common data folder at the repo root (full image area, PE oversampled x3 in train)
+train: images/train      # train images directory 
+val: images/val          # validation images directory  
+test: images/test        # test images directory
+
+# Number of classes
+nc: 4  # number of classes
+
+# Class names  
+names:
+  0: PP   # Microplastic
+  1: PE   # Microplastic
+  2: PS   # Microplastic
+  3: PET   # Microplastic
