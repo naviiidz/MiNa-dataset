@@ -1,0 +1,11 @@
+# Datasets and model weights (several GB; GitHub rejects files over 100 MB)
+data/
+model_zoo/
+*.pt
+*.pth
+
+# Generated results
+outputs/
+outputs_*/
+
+__pycache__/
