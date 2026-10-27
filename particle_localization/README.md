@@ -84,6 +84,21 @@ python coco_to_yolo.py --mode det --output_dir ../data/patches/yolo_det
 python coco_to_yolo.py --mode seg --output_dir ../data/patches/yolo_seg
 ```
 
+### External datasets
+
+The detector + SAM pipeline is also evaluated on four public SEM datasets. They are not included in this
+repository; download them from their original sources and place each one in `sam_prompting/data/<name>/`, with the
+images in `image/` and the labels in `label/`:
+
+| `--dataset` | Source | Images | Labels |
+|---|---|---|---|
+| `fragment_1` | [Shi et al.](https://data.mendeley.com/datasets/z6459vntbr/1) | 55 PNG, 2560 × 1800 px | binary masks, same file name as the image |
+| `fragment_2` | [Shi et al.](https://data.mendeley.com/datasets/z6459vntbr/1) | 41 PNG, 1280 × 898 px (2 at 800 × 561 px) | binary masks, same file name as the image |
+| `dataset2_low_mag` | [Rettenberger et al.](https://osf.io/f2y8w/overview), low magnification | 20 PNG, 1920 × 1200 px | instance masks `<image>_label.tif` |
+| `dataset2_high_mag` | [Rettenberger et al.](https://osf.io/f2y8w/overview), high magnification | 40 TIFF, 7680 × 4800 px (10 at 3840 × 2400 px) | instance masks `<image>_label.tif` |
+
+Please cite the original publications when using these datasets.
+
 ## Quick start
 
 Train all class-agnostic detectors with three seeds and collect the results:
@@ -93,15 +108,6 @@ cd particle_localization
 ./results/run_detectors_agnostic.sh
 python results/localization_seeds.py      # -> results/localization_seeds.md
 python results/segmentation_seeds.py      # -> results/segmentation_seeds.md
-```
-
-Run detector-prompted SAM and build its table and figures:
-
-```bash
-cd sam_prompting
-conda activate yolo-sam
-./run_revision.sh
-python make_revision_figures.py --out ~/sam_figures
 ```
 
 ## Step-by-step usage
