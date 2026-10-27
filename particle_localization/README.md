@@ -39,8 +39,6 @@ particle_localization/
 └── Yolo-sam/               earlier YOLO + SAM scripts (superseded by sam_prompting/)
 ```
 
-Weights (`zoo/`, `model_zoo/`, `weights/`), training runs (`runs/`) and outputs are not in git.
-
 ## Installation
 
 Two conda environments are used: one for Ultralytics and SAM, one for Detectron2.
